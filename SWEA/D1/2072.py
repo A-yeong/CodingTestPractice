@@ -9,4 +9,4 @@ for test_case in range(1, T + 1):
         if data[i] % 2 == 1:
             ans += data[i]
 
-    print("#", str(test_case), str(ans))
+    print("#%d" %test_case, ans)
