@@ -4,6 +4,7 @@ for test_case in range(1, T + 1):
     N = int(input())
     ans =[[1] for i in range(N)]
     print("#%d" %test_case)
+    print(1)
     for i in range(N):
         if(i == 0):
             ans[i].append(1)
