@@ -29,4 +29,5 @@ for test_case in range(1, T + 1):
             N -= 10
             moneyArr[7] += 1
 
-    print("#%d" %test_case, *moneyArr)
+    print("#%d" %test_case)
+    print(*moneyArr)
