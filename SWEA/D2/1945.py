@@ -1,6 +1,6 @@
 T = int(input())
 
-for test_case in range(1, T + 1):
+for tc in range(1, T + 1):
     N = int(input())
     a, b, c, d, e = 0, 0, 0, 0, 0
 
@@ -8,7 +8,7 @@ for test_case in range(1, T + 1):
         if(N % 2 == 0):
             a += 1
             N = N // 2
-        elif(N % 3 == 0):
+        elif (N % 3 == 0):
             b += 1
             N = N // 3
         elif (N % 5 == 0):
@@ -21,4 +21,4 @@ for test_case in range(1, T + 1):
             e += 1
             N = N // 11
 
-    print("#%d" %test_case, a, b, c, d, e)
+    print("#%d" %tc, a, b, c, d, e)
