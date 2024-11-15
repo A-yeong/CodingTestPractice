@@ -1,13 +1,14 @@
 T = int(input())
 
-for test_case in range(1, T + 1):
-    cnt = int(input())
+for tc in range(1, T + 1):
+    N = int(input())
     data = list(map(int, input().split()))
-    currentMax = data[cnt - 1]
+    current_max = data[N - 1]
     ans = 0
-    for j in range(cnt - 1, -1, -1):
-        if(currentMax <= data[j]):
-            currentMax = data[j]
+
+    for i in range(N - 1, -1, -1):
+        if(current_max <= data[i]):
+            current_max = data[i]
         else:
-            ans += currentMax - data[j]
-    print("#%d" %test_case, ans)
+            ans += current_max - data[i]
+    print("#%d" %tc, ans)
