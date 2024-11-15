@@ -1,7 +1,8 @@
 T = int(input())
 
-for test_case in range(1, T + 1):
+for tc in range(1, T + 1):
     N = int(input())
     data = list(map(int, input().split()))
+    data.sort()
 
-    print("#%d" %test_case, *sorted(data))
+    print("#%d" %tc, *data)
