@@ -1,12 +1,12 @@
 T = int(input())
 
-for test_case in range(1, T + 1):
+for tc in range(1, T + 1):
     N = int(input())
-    arr = [[ 0 for _ in range(N)] for _ in range(N)]
+    arr = [[0 for _ in range(N)] for _ in range(N)]
     dx = [0, 1, 0, -1]
     dy = [1, 0, -1, 0]
 
-    def snail( x, y, d, num):
+    def snail(x, y, d, num):
         arr[x][y] = num
         nx = x + dx[d]
         ny = y + dy[d]
@@ -19,6 +19,6 @@ for test_case in range(1, T + 1):
             snail(nx, ny, d, num + 1)
 
     snail(0, 0, 0, 1)
-    print("#%d" %test_case)
+    print("#%d" %tc)
     for i in range(N):
         print(*arr[i])
