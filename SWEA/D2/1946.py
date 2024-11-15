@@ -1,14 +1,13 @@
 T = int(input())
 
-for test_case in range(1, T + 1):
+for tc in range(1, T + 1):
     N = int(input())
-    ans = []
+    ans = ""
 
-    for n in range(N):
-        C, K = map(str, input().split())
-        for i in range(int(K)):
-            ans.append(C)
+    for i in range(N):
+        letter, num = input().split()
+        ans += letter * int(num)
 
-    print("#%d" %test_case)
-    for i in range(len(ans)//10 + 1):
-        print("".join(ans[i * 10 : (i + 1) * 10]))
+    print("#%d" %tc)
+    for i in range(len(ans) // 10 + 1):
+        print(ans[i * 10:(i + 1) * 10])
