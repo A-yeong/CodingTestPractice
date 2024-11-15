@@ -1,18 +1,19 @@
 T = int(input())
 
-for test_case in range(1, T + 1):
+for tc in range(1, T + 1):
     N = int(input())
-    arr = list(map(int, input().split()))
-    scores = [0] * 101
+    data = list(map(int, input().split()))
+    score_arr = [0] * 101
 
-    for i in range(len(arr)):
-        scores[arr[i]] += 1
+    for i in range(len(data)):
+        score_arr[data[i]] += 1
 
-    max_count = max(scores)
-    ans = scores.index(max(scores))
+    max_count = max(score_arr)
+    ans = 0
+
     for i in range(100, -1, -1):
-        if(scores[i] == max_count):
+        if score_arr[i] == max_count:
             ans = i
             break
 
-    print("#%d" %test_case, ans)
+    print("#%d" %tc, ans)
