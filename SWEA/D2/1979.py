@@ -16,6 +16,7 @@ for tc in range(1, T + 1):
                     result += 1
                 cnt = 0
 
+
         # 세로
         for j in range(N):
             if data[j][i] == 1:
