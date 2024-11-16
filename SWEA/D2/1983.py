@@ -2,17 +2,17 @@ T = int(input())
 
 for tc in range(1, T + 1):
     N, K = map(int, input().split())
-    grade_arr = ['D0', 'C-', 'C0', 'C+', 'B-', 'B0', 'B+', 'A-', 'A0', 'A+']
-    data = []
+    grades_arr = ['D0', 'C-', 'C0', 'C+', 'B-', 'B0', 'B+', 'A-', 'A0', 'A+']
+    student_score = []
 
-    for i in range(N):
+    for n in range(N):
         a, b, c = map(int, input().split())
         person = a * 0.35 + b * 0.45 + c * 0.20
-        data.append(person)
+        student_score.append(person)
 
-    k_score = data[K - 1]
-    data.sort()
+    k_grade = student_score[K - 1]
+    student_score.sort()
     div = N // 10
-    k_grade = data.index(k_score) // div
+    k_final = student_score.index(k_grade) // div
 
-    print("#%d" %tc, grade_arr[k_grade])
+    print("#%d" %tc, grades_arr[k_final])
