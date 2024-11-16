@@ -1,6 +1,6 @@
 T = int(input())
 
-for test_case in range(1, T + 1):
+for tc in range(1, T + 1):
     N, K = map(int, input().split())
     data = [list(map(int, input().split())) for _ in range(N)]
     result = 0
@@ -25,4 +25,4 @@ for test_case in range(1, T + 1):
                     result += 1
                 cnt = 0
 
-    print("#%d" %test_case, result)
+    print("#%d" %tc, result)
