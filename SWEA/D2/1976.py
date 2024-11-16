@@ -1,12 +1,11 @@
 T = int(input())
 
-for test_case in range(1, T + 1):
-    arr = list(map(int, input().split()))
-    hour = arr[0] + arr[2]
-    min = arr[1] + arr[3]
-    if(hour >= 12):
-        hour %= 12
-    if(min >= 60):
-        min %= 60
-        hour += 1
-    print("#%d %d %d" %(test_case, hour, min))
+for tc in range(1, T + 1):
+    h1, m1, h2, m2 = map(int, input().split())
+
+    hour = (h1 + h2 + (m1 + m2) // 60) % 12
+    if hour == 0:
+        hour = 12
+    minute = (m1 + m2) % 60
+
+    print("#%d" %tc, hour, minute)
