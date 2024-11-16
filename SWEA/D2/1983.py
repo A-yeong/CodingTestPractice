@@ -1,22 +1,18 @@
-import operator
-
 T = int(input())
-grade = {1 : "A+", 2 : "A0", 3 : "A-", 4 : "B+", 5 : "B0", 6 : "B-", 7 : "C+", 8 : "C0", 9 : "C-", 10 : "D0"}
 
-
-for test_case in range(1, T + 1):
+for tc in range(1, T + 1):
     N, K = map(int, input().split())
-    totalArr = []
+    grade_arr = ['D0', 'C-', 'C0', 'C+', 'B-', 'B0', 'B+', 'A-', 'A0', 'A+']
+    data = []
+
     for i in range(N):
         a, b, c = map(int, input().split())
-        totalArr.append(a * 0.35 + b * 0.45 + c * 0.2)
-    # print(totalArr)
-    kScore = totalArr[K - 1]
-    
-    totalArr.sort(reverse=True)
-    kGrade = totalArr.index(kScore) // (N // 10) + 1
-    
-    # print(totalArr)
-    # print(kScore, kGrade)
+        person = a * 0.35 + b * 0.45 + c * 0.20
+        data.append(person)
 
-    print("#%d" %test_case, grade.get(kGrade))
+    k_score = data[K - 1]
+    data.sort()
+    div = N // 10
+    k_grade = data.index(k_score) // div
+
+    print("#%d" %tc, grade_arr[k_grade])
