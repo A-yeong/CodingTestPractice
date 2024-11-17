@@ -6,24 +6,24 @@ for tc in range(1, T + 1):
     ans = 1
 
     for i in range(9):
-        # 가로
+        # 가로 검증
         if(sorted(data[i]) != one_ten):
             ans = 0
 
-        # 세로
+        # 세로 검증
         sero_arr = []
         for j in range(9):
             sero_arr.append(data[j][i])
         if(sorted(sero_arr) != one_ten):
             ans = 0
 
-        # 3x3
+        # 3x3 검증
         for j in range(9):
             if(i % 3 == 0 and j % 3 == 0):
                 sqr_arr = []
                 for k in range(3):
                     for l in range(3):
-                        sqr_arr.append(data[i+k][j+l])
+                        sqr_arr.append(data[i + k][j + l])
             if(sorted(sqr_arr) != one_ten):
                 ans = 0
 
