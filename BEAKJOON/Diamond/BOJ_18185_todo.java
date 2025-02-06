@@ -5,7 +5,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 
-public class BOJ_18185 {
+public class BOJ_18185_todo {
     static int n;
     static int money = 0;
     static int[] counts;
