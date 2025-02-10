@@ -23,6 +23,7 @@
 |18258|https://www.acmicpc.net/problem/18258|구현|o|
 |20115|https://www.acmicpc.net/problem/20115|그리디|o|
 |28278|https://www.acmicpc.net/problem/28278|구현|o|
+|1012|https://www.acmicpc.net/problem/1012|BFS|o|
 
 ## 브론즈 🥉
 |문제 번호|링크|사용 알고리즘|해결|
