@@ -25,6 +25,7 @@
 |28278|https://www.acmicpc.net/problem/28278|구현|o|
 |1012|https://www.acmicpc.net/problem/1012|BFS|o|
 |2468|https://www.acmicpc.net/problem/2468|BFS|o|
+|10451|https://www.acmicpc.net/problem/10451|BFS|o|
 
 ## 브론즈 🥉
 |문제 번호|링크|사용 알고리즘|해결|
