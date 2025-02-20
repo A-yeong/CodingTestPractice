@@ -26,7 +26,7 @@
 |28278|https://www.acmicpc.net/problem/28278|구현|o|
 |1012|https://www.acmicpc.net/problem/1012|BFS|o|
 |2468|https://www.acmicpc.net/problem/2468|BFS|o|
-|10451|https://www.acmicpc.net/problem/10451|BFS|o|
+|10451|https://www.acmicpc.net/problem/10451|BFS, DFS|o|
 |2583|https://www.acmicpc.net/problem/2583|BFS|o|
 |1697|https://www.acmicpc.net/problem/1697|BFS|o|
 
