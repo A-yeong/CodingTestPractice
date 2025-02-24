@@ -9,6 +9,7 @@
 |:--:|:--:|:--:|:--:|
 |1461|https://www.acmicpc.net/problem/11461|그리디|o|
 |7576|https://www.acmicpc.net/problem/7576|BFS|o|
+|2573|https://www.acmicpc.net/problem/2573|DFS|o|
 
 ## 실버 🥈
 |문제 번호|링크|사용 알고리즘|해결|
