@@ -12,6 +12,7 @@
 |2573|https://www.acmicpc.net/problem/2573|DFS|o|
 |24230|https://www.acmicpc.net/problem/24230|DFS|o|
 |1987|https://www.acmicpc.net/problem/1987|DFS|o|
+|3055|https://www.acmicpc.net/problem/3055|DFS|x|
 
 ## 실버 🥈
 |문제 번호|링크|사용 알고리즘|해결|
@@ -32,6 +33,7 @@
 |10451|https://www.acmicpc.net/problem/10451|BFS, DFS|o|
 |2583|https://www.acmicpc.net/problem/2583|BFS|o|
 |1697|https://www.acmicpc.net/problem/1697|BFS|o|
+|2644|https://www.acmicpc.net/problem/2644|DFS|x|
 
 ## 브론즈 🥉
 |문제 번호|링크|사용 알고리즘|해결|
