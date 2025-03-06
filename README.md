@@ -53,4 +53,5 @@
 |괄호 회전하기|https://school.programmers.co.kr/learn/courses/30/lessons/76502|구현, 큐|o|
 |바탕화면 정리|https://school.programmers.co.kr/learn/courses/30/lessons/161990|구현|o|
 |둘만의 암호|https://school.programmers.co.kr/learn/courses/30/lessons/155652|구현|o|
+|햄버거 만들기|https://school.programmers.co.kr/learn/courses/30/lessons/133502|스택|o|
 
