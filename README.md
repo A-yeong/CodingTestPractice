@@ -45,6 +45,10 @@
 |문제 번호|링크|사용 알고리즘|해결|
 |:--:|:--:|:--:|:--:|
 |22864|https://www.acmicpc.net/problem/22864|구현, 그리디|o|
+|1000|https://www.acmicpc.net/problem/1000||o|
+|2420|https://www.acmicpc.net/problem/2420||o|
+|5337|https://www.acmicpc.net/problem/5337||o|
+|28444|https://www.acmicpc.net/problem/28444||o|
 
 
 # PROGRAMMERS
