@@ -49,6 +49,8 @@
 |2420|https://www.acmicpc.net/problem/2420||o|
 |5337|https://www.acmicpc.net/problem/5337||o|
 |28444|https://www.acmicpc.net/problem/28444||o|
+|1264|https://www.acmicpc.net/problem/1264||o|
+|11721|https://www.acmicpc.net/problem/11721||o|
 
 
 # PROGRAMMERS
