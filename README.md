@@ -40,6 +40,7 @@
 |1654|https://www.acmicpc.net/problem/1654|이진탐색(Binary Search)|o|
 |10816|https://www.acmicpc.net/problem/10816|이진탐색(Binary Search)|o|
 |10815|https://www.acmicpc.net/problem/10815|이진탐색(Binary Search)|o|
+|11650|https://www.acmicpc.net/problem/11650|정렬|o|
 
 ## 브론즈 🥉
 |문제 번호|링크|사용 알고리즘|해결|
