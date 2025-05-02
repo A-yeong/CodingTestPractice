@@ -52,6 +52,9 @@
 |28444|https://www.acmicpc.net/problem/28444||o|
 |1264|https://www.acmicpc.net/problem/1264||o|
 |11721|https://www.acmicpc.net/problem/11721||o|
+|2292|https://www.acmicpc.net/problem/2292|수학, 그리디|o|
+|5073|https://www.acmicpc.net/problem/5073|수학, 그리디|o|
+|23971|https://www.acmicpc.net/problem/23971|수학, 그리디|o|
 
 
 # PROGRAMMERS
