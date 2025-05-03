@@ -55,6 +55,8 @@
 |2292|https://www.acmicpc.net/problem/2292|수학, 그리디|o|
 |5073|https://www.acmicpc.net/problem/5073|수학, 그리디|o|
 |23971|https://www.acmicpc.net/problem/23971|수학, 그리디|o|
+|1157|https://www.acmicpc.net/problem/1157|구현|o|
+|2816|https://www.acmicpc.net/problem/2816|구현|o|
 
 
 # PROGRAMMERS
