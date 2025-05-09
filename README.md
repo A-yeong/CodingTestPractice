@@ -46,6 +46,8 @@
 |4659|https://www.acmicpc.net/problem/4659|구현|o|
 |10431|https://www.acmicpc.net/problem/10431|구현|o|
 |25757|https://www.acmicpc.net/problem/25757|구현|o|
+|1205|https://www.acmicpc.net/problem/1205|구현|o|
+|20125|https://www.acmicpc.net/problem/20125|구현|o|
 
 ## 브론즈 🥉
 |문제 번호|링크|사용 알고리즘|해결|
