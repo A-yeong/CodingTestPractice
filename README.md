@@ -14,6 +14,7 @@
 |1987|https://www.acmicpc.net/problem/1987|DFS|o|
 |3055|https://www.acmicpc.net/problem/3055|DFS|x|
 |15989|https://www.acmicpc.net/problem/15989|DP|o|
+|13549|https://www.acmicpc.net/problem/13549|BFS|o|
 
 ## 실버 🥈
 |문제 번호|링크|사용 알고리즘|해결|
