@@ -51,6 +51,7 @@
 |1205|https://www.acmicpc.net/problem/1205|구현|o|
 |20125|https://www.acmicpc.net/problem/20125|구현|o|
 |1244|https://www.acmicpc.net/problem/1244|구현|o|
+|1417|https://www.acmicpc.net/problem/1417|구현|o|
 
 ## 브론즈 🥉
 |문제 번호|링크|사용 알고리즘|해결|
