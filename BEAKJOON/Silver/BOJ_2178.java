@@ -76,7 +76,7 @@ public class BOJ_2178 {
                 // 갈 수 있는 길이면 queue에 삽입, 방문 처리
                 queue.offer(new Point(nextX, nextY));
                 isVisit[nextX][nextY] = true;
-                // arr[nextX][nextY]에 이동 횟수를 기록
+                // another[nextX][nextY]에 이동 횟수를 기록
                 arr[nextX][nextY] = arr[currentPoint.x][currentPoint.y] + 1;
             }
         }
