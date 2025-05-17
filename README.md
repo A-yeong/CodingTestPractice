@@ -87,4 +87,6 @@
 |최솟값 만들기|https://school.programmers.co.kr/learn/courses/30/lessons/12941|구현|o|
 |숫자의 표현|https://school.programmers.co.kr/learn/courses/30/lessons/12924|구현|o|
 |완전범죄|https://school.programmers.co.kr/learn/courses/30/lessons/389480|DP|o|
-
+|다음 큰 숫자|https://school.programmers.co.kr/learn/courses/30/lessons/12911|구현|o|
+|피보나치 수|https://school.programmers.co.kr/learn/courses/30/lessons/12945|DP|o|
+|짝지어 제거하기|https://school.programmers.co.kr/learn/courses/30/lessons/12973|구현, 스택|o|
