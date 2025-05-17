@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<classpath>
-	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
-	<classpathentry kind="src" path="BEAKJOON"/>
-	<classpathentry kind="src" path="coding_test_for_employment"/>
-	<classpathentry kind="src" path="PROGRAMMERS"/>
-	<classpathentry kind="src" path="SWEA"/>
-	<classpathentry kind="output" path="production/CodingTestPractice"/>
-</classpath>
