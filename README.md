@@ -82,4 +82,9 @@
 |바탕화면 정리|https://school.programmers.co.kr/learn/courses/30/lessons/161990|구현|o|
 |둘만의 암호|https://school.programmers.co.kr/learn/courses/30/lessons/155652|구현|o|
 |햄버거 만들기|https://school.programmers.co.kr/learn/courses/30/lessons/133502|스택|o|
+|짝수와 홀수|https://school.programmers.co.kr/learn/courses/30/lessons/12937|구현|o|
+|최댓값과 최솟값|https://school.programmers.co.kr/learn/courses/30/lessons/12939|구현|o|
+|최솟값 만들기|https://school.programmers.co.kr/learn/courses/30/lessons/12941|구현|o|
+|숫자의 표현|https://school.programmers.co.kr/learn/courses/30/lessons/12924|구현|o|
+|완전범죄|https://school.programmers.co.kr/learn/courses/30/lessons/389480|DP|o|
 
