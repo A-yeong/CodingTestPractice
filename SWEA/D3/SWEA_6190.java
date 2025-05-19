@@ -21,19 +21,19 @@ public class SWEA_6190 {
 			}
 			
 			ans = -1;
-			for(int i = n - 1; i >= 0; i--) {
-				for(int j = i - 1; j >= 0; j--) {
+			for(int i = 0; i < n; i++) {
+				for(int j = i + 1; j < n; j++) {
 					int ij = arr[i] * arr[j];
 					if(isDanjo(ij)) {
-						ans = ij;
-						break;
+						ans = Math.max(ans, ij);
 					}
 				}
 			}
 			
 			sb.append("#").append(tc).append(" ").append(ans).append("\n");
-			System.out.println(sb);
+			
 		}
+		System.out.println(sb);
 	}
 	
 	private static boolean isDanjo(int x) {
